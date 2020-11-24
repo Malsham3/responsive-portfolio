@@ -1,3 +1,9 @@
+body {
+    background-image: url("bg-c2.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
 .footer {
     position: fixed;
      bottom: 0;
@@ -7,8 +13,8 @@
      background-color: #f5f5f5;
 }
 
-h3 {
-   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+h3, #bio {
+   font-family: trebuchet MS, sans-serif
 }
 
 .card {
@@ -21,9 +27,17 @@ h3 {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color:steelblue
+    color: slategrey;
 }
-  
+
+img{
+    max-width: 350px;
+}
+
+.card{
+    background-color: whitesmoke
+}
+
   /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
