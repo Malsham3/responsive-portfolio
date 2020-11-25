@@ -13,6 +13,12 @@ h3, #bio {
     color: slategrey;
 }
 
+.go-back{
+    font-family: trebuchet MS, sans-serif;
+    color: white;
+    background-color: lightgray;
+}
+
 #bio-card {
     width: 80%;
 }
