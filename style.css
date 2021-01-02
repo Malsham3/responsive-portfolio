@@ -8,7 +8,7 @@ h3, #bio {
    font-family: trebuchet MS, sans-serif;
 }
 
-.repo {
+.repo, h4 {
     font-family: trebuchet MS, sans-serif;
     color: slategrey;
 }
@@ -21,6 +21,11 @@ h3, #bio {
 
 #bio-card {
     width: 80%;
+}
+
+#contact-card {
+    width: 50%;
+    height: 250px;
 }
 
 .fa {
@@ -49,4 +54,24 @@ h3, #bio {
     font-family: Andale Mono, monospace;
     font-size: 14px;
     color: slategrey;
+}
+
+#contact-string {
+    font-size: 17px;
+}
+
+#project-desc {
+    color: black;
+    background-color: white;
+}
+
+#project-link {
+    color: white;
+    font-size: 20px;
+}
+
+#projects-link {
+    color: black;
+    background-color: white;
+    font-size: 20px;
 }
